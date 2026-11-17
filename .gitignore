@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+
+dist/server/
+dist/.openai/
+
+test-output/

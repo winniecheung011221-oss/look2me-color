@@ -1,0 +1,14 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f2eb"><title>LOOK2ME COLOR｜个人色彩与试妆</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="experience.css"><script type="module" src="app.js"></script><script src="color-motion.js" defer></script></head>
+<body><header class="bar"><a class="brand" href="./">LOOK2ME<span>.</span></a><nav aria-label="主导航"><a href="#studio">试妆工作台</a><a href="design.html">产品设计说明 ↗</a></nav><a class="nav-cta" href="#studio">先看示例 ↓</a></header>
+<main><section class="cover" id="top">
+<div class="color-field" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+<div class="cover-content">
+<div class="cover-copy"><p class="eyebrow"><span></span> LOOK2ME COLOR STUDIO</p><h1>在你的脸上，<br>试一种<span>新颜色。</span></h1><p class="cover-desc">上传一张自拍，对比不同风格的完整妆效。</p><div class="cover-actions"><button class="pill dark" data-act="pick">上传自拍 <span>↗</span></button><button class="pill outline" data-act="sample">先看示例 <span>↓</span></button></div></div>
+<button class="upload-disc" data-act="pick" aria-label="选择或拖入正面自拍"><span class="disc-orbit" aria-hidden="true"></span><span class="disc-plus" aria-hidden="true">+</span><span class="disc-label"><strong>把自拍放在这里</strong><small>点击选择或拖入图片</small></span></button>
+</div>
+<div class="cover-footer"><span>选择色彩氛围</span><div class="tone-rail" role="group" aria-label="首页色彩氛围"><button data-tone="apricot" aria-pressed="true"><i></i>晨杏</button><button data-tone="petal" aria-pressed="false"><i></i>雾粉</button><button data-tone="fig" aria-pressed="false"><i></i>无花果</button><button data-tone="iris" aria-pressed="false"><i></i>鸢尾</button></div><a href="#studio">向下看试妆 ↓</a></div>
+</section>
+<section class="wrap" id="studio"><div class="workspace-heading"><div><p class="eyebrow">THE MAKEUP STUDIO</p><h2>同一张脸，多种妆感<span>.</span></h2></div><div class="toolbar"><button class="pill outline" data-act="sample">重置示例</button><button class="pill dark" data-act="pick">＋ 上传自拍</button></div></div>
+<input type="file" id="file" accept="image/jpeg,image/png,image/webp" hidden><p class="status" id="status" role="status"></p>
+<div id="controls"></div><div id="result"></div></section></main>
+<footer class="wrap footer"><a class="brand" href="./">LOOK2ME<span>.</span></a><a href="design.html">完整产品设计说明 ↗</a><a href="#top">回到顶部 ↑</a></footer></body></html>

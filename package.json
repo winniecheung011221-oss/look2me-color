@@ -1,0 +1,10 @@
+{
+  "name": "look2me-color",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "check": "node --check server.mjs && node --check dist/app.js && node --check dist/vision.js",
+    "dev": "node --env-file-if-exists=.env server.mjs"
+  }
+}
